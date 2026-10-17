@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="96" fill="#0D1117"/>
+  <circle cx="280" cy="200" r="120" fill="#C9A84C" opacity="0.9"/>
+  <circle cx="310" cy="180" r="100" fill="#0D1117"/>
+  <path d="M256 380 C256 380 200 320 200 260 C200 220 224 200 256 200 C288 200 312 220 312 260 C312 320 256 380 256 380Z" fill="#C9A84C" opacity="0.6"/>
+  <text x="256" y="460" text-anchor="middle" font-family="serif" font-size="48" fill="#C9A84C">N</text>
+</svg>

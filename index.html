@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#C9A84C" />
+    <meta
+      name="description"
+      content="Accurate prayer times, Qibla compass, and Ramadan Sehri & Iftar for every city worldwide. Free PWA — NamazGo."
+    />
+    <meta
+      name="keywords"
+      content="prayer times, namaz times, salah times, qibla, ramadan, sehri, iftar, islamic calendar"
+    />
+    <meta name="author" content="NamazGo" />
+    <link rel="canonical" href="https://namazgo.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="NamazGo" />
+    <meta property="og:title" content="NamazGo — Global Prayer Times" />
+    <meta
+      property="og:description"
+      content="Accurate prayer times, Qibla compass, and Ramadan Sehri & Iftar for every city worldwide."
+    />
+    <meta property="og:url" content="https://namazgo.app/" />
+    <meta property="og:image" content="https://namazgo.app/og-image.svg" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="NamazGo — Global Prayer Times" />
+    <meta
+      name="twitter:description"
+      content="Accurate prayer times, Qibla compass, and Ramadan Sehri & Iftar for every city worldwide."
+    />
+    <meta name="twitter:image" content="https://namazgo.app/og-image.svg" />
+
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=JetBrains+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>NamazGo — Global Prayer Times</title>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "NamazGo",
+        "url": "https://namazgo.app/",
+        "description": "Accurate prayer times, Qibla compass, and Ramadan Sehri & Iftar for every city worldwide.",
+        "applicationCategory": "LifestyleApplication",
+        "operatingSystem": "Any",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Prayer times by GPS or city",
+          "Qibla compass",
+          "Ramadan Sehri and Iftar times",
+          "Hijri and Gregorian dates",
+          "Offline PWA support"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
